@@ -37,7 +37,7 @@ EDMA: Enhanced DMA. Transfer of data from i/o to memory without involving CPU.
 			reg = <0x3ab00000 0x76900>;
 			reg-names = "edma-reg-base";
 			qcom,txdesc-ring-start = <0x17>;
-			qcom,txdesc-rings = <0x01>;
+			qcom,txdesc-rings = <0x01>; //total number of tx desc rings
 			qcom,txcmpl-ring-start = <0x07>;
 			qcom,txcmpl-rings = <0x01>;
 			qcom,rxfill-ring-start = <0x07>;
